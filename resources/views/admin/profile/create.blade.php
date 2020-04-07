@@ -1,19 +1,13 @@
-<!DOCTYPE html>
-<html>
-    <head>
-         <meta charset="UTF-8" />
-         <title>TECH BOOST</title>
-    </head>
-    <body>
-    <h1>Hallo world!!!</h1>
-    <ul>
-        <li>1</li>
-        <li>2</li>
-    </ul>
-    <ol>
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
-    </ol>
-    </body>
-</html>
+@extends('layouts.profile')
+
+@section('title', 'プロフィール作成')
+
+@section('content')
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <h2>プロフィール</h2>
+            </div>
+        </div>
+    </div>
+@endsection    
