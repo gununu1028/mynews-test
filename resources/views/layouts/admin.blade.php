@@ -33,7 +33,7 @@
                         </ul>
                         <ul class="navbar-nav ml-auto">
                         @guest    
-                            <li><a class="nab-link" herf="{{ route('login') }}"></a></li>
+                            <li><a class="nav-link" herf="{{ route('login') }}"></a></li>
                         @else
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" herf="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
