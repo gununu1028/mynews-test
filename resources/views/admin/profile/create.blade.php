@@ -35,22 +35,22 @@
                     <div class="form-group row">
                         <label class="col-md-2">性別</label>
                         <div class="col-md-10">
-                            <input type="radio" name="gender" value="{{ old('gender') }}" class="form-gender">
+                            <input type="radio" name="gender" value="男性" class="form-gender">
                             <label>男性</label>
-                            <input type="radio" name="gender" value="{{ old('gender') }}" class="form-gender">
+                            <input type="radio" name="gender" value="女性" class="form-gender">
                             <label>女性</label>
                         </div>    
                     </div>
                     <div class="form-group row">
                         <label class="col-md-2">趣味</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="habby" value="{{ old('habby') }}">
+                            <input type="text" class="form-control" name="hobby" value="{{ old('habby') }}">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-md-2">自己紹介</label>
                         <div class="col-md-10">
-                            <textarea class="form-control" name="body" rows="5">{{ old('introduction') }}</textarea>
+                            <textarea class="form-control" name="introduction" rows="5">{{ old('introduction') }}</textarea></textarea>
                         </div>
                     </div>
                     {{ csrf_field() }}
