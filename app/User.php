@@ -27,3 +27,8 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 }
+//Users::create([
+       // 'name' =>"徳永",
+       // 'email' =>"tokunaga@tech.com",
+        //'password' =>Hash::make("pass")
+        //]);
